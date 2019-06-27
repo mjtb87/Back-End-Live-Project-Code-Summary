@@ -21,7 +21,7 @@ corresponding glyphicons.
 The code that I needed to do this was already available elsewhere in our code. All I had to do was compile the code 
 scattered through our project. After gathering all the necessary code, I wrote the code that I have posted below.
 
-           <td>
+                <td>
                     <a href="@Url.Action("Edit", "Jobs", new { id = item.JobId }, null)">
                         <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                     </a> |
@@ -533,7 +533,7 @@ eventually be placed into the "jobList" list.
         // creates for loop to iterate over the length of jobIds 
         for (var j = 0; j < jobIds.length; j++) {
         
-            // creates object "job" that will act as a key, value pair in the list object "jobList"
+        // creates object "job" that will act as a key, value pair in the list object "jobList"
             var job = {};
             
 After, the key in the "job" variable object is set to the id of whatever iteration of the list of jobs it is on and 
